@@ -20,6 +20,24 @@ h1{
     padding: 20px;
 }
 
+/*nav barra*/
+.nav-bar{
+    background-color: #001D2D;
+    display: flex;
+    padding: 10px 0;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-bar li{
+    padding: 0 20px;
+}
+
 .card{
     width: 300px;
     background-color: #F3F3F3;

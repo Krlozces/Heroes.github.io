@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: aliceblue;
+}
+
+.header-green{
+    background-color: #1CD1B0;
+    padding: 5px 20px;
+}
+
+h1{
+    background-color: #00669F;
+    padding: 20px;
+}
+
+/*nav barra*/
+.nav-bar{
+    background-color: #001D2D;
+    display: flex;
+    padding: 10px 0;
+    list-style-type: none;
+    justify-content: flex-end;
+}
+
+.nav-bar a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-bar li{
+    padding: 0 20px;
+}
+
+/* formulario */
+form{
+    width: 60%;
+    margin: 40px auto;
+    background-color: #00669F;
+    border-radius: 49px;
+    padding: 20px;
+}
+
+.form-main{
+    display: flex;
+    justify-content: space-around;
+}
+
+.form-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.form-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    margin: 10px 0;
+}
+
+form p{
+    color: #fff;
+    text-align: center;
+    margin: 10px 0;
+}
+
+label{
+    display: block;
+}
+
+.label-style{
+    font-size: 1.5rem;
+}
+
+.input-styles{
+    display: block;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    width: 320px;
+    margin: 10px 0;
+}
+
+input[type="file"]{
+    padding: 0px;
+    border-radius: 4px;
+    padding: 20px 0;
+}
+
+button{
+    background-color: #1CD1B0;
+    border: none;
+    border-radius: 23px;
+    font-size: 2rem;
+    font-weight: 800;
+    margin: 10px auto;
+    padding: 20px 100px;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-boxes h3{
+    font-size: 1.4rem;
+    margin: 2px 0;
+}
+
+.box-separation{
+    margin: 8px 0;
+}
+
+textarea{
+    height: 240px;
+    border-radius: 20px;
+    padding: 20px;
+}
+/* Footer */
+footer{
+    background-color: #00669F;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+@media(max-width:1024px){
+    .form-main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .input-styles{
+        padding: 10px;
+        border-radius: 5px;
+        border: none;
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    form{
+        width: 80%;
+    }
+}
+

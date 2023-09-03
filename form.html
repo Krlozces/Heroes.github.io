@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulario Heroes</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="form.css">
+    </head>
+    <body>
+        <header>
+            <p class="header-green">20% de descuento en todos los productos!</p>
+            <h1>Heroes</h1>
+            <nav>
+                <ul class="nav-bar">
+                    <li><a href="">Contacto</a></li>
+                    <li><a href="./form.html">Registrarme</a></li>
+                    <li><a href="">Ingresar</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <form action="" method="post">
+                <h2>Añadí tu super!</h2>
+                <p>Agregá tu personaje favorito completando las opciones.</p>
+                <div class="form-main">
+                    <div class="form-left">
+                        <label for="name" class="label-style">*Nombre<input type="text" id="name" required class="input-styles"></label>
+                        <label for="date" class="label-style">Fecha <input type="date" class="input-styles"></label>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Descripcion"></textarea>
+                    </div>
+                    <div class="form-right">
+                        <label for="specie" class="label-style">*Especie <input type="text" id="specie" required class="input-styles"></label>
+                        <label for="doc" class="label-style">Agregar Foto <input type="file" id="doc" class="input-styles"></label>
+                        <div class="contenedor-boxes">
+                            <h3>Poderes</h3>
+                            <label for="fly"><input type="checkbox" name="" id="fly" class="box-separation"> Volar</label>
+                            <label for="superiq"><input type="checkbox" name="" id="superiq" class="box-separation"> SuperInteligencia</label>
+                            <label for="vista"><input type="checkbox" name="" id="vista" class="box-separation"> Vista de rayo láser</label>
+                            <label for="billetes"><input type="checkbox" name="" id="billetes" class="box-separation"> Billetera gorda</label>
+                            <hr>
+                            <h3>Tipo de personaje</h3>
+                            <label for="heroes"><input type="radio" name="characters" id="heroes" class="box-separation"> Héroe / Heroína</label>
+                            <label for="villanos"><input type="radio" name="characters" id="villanos" class="box-separation"> Villano / Villana</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="button">
+                    <button type="submit">Añadir</button>
+                </div>
+            </form>
+        </main>
+        <footer>
+            <p>Todos los derechos reservados a FRONT END 1 - EQUIPO 03 - Brayan Cespedes</p>
+        </footer>
+        <script src="" async defer></script>
+    </body>
+</html>
